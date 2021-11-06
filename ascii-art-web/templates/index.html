@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art</title>
+</head>
+
+<body>
+    <form action="/ascii-art" method="POST">
+        <input type="radio" id="standard" name="banner" value="standard" required>
+        <label for="standard">Standard</label><br>
+        <input type="radio" id="shadow" name="banner" value="shadow" required>
+        <label for="standard">Shadow</label><br>
+        <input type="radio" id="thinkertoy" name="banner" value="thinkertoy" required>
+        <label for="standard">Thinkertoy</label><br><br>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="Type your text here" required></textarea><br>
+        <button type="submit" name="submit">Submit</button>
+    </form>
+</body>
+
+</html>
